@@ -187,8 +187,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 function register_post_types(){
     register_post_type('branch_of_law', array(
         'labels'             => array(
-            'name'               => 'Галузі права', // Основное название типа записи
-            'singular_name'      => 'Галузь права', // отдельное название записи типа Book
+            'name'               => 'Галузі права',
+            'singular_name'      => 'Галузь права',
             'add_new'            => 'Добавити нову',
             'add_new_item'       => 'Добавити нову галузь права',
             'edit_item'          => 'Редагувати галузь права',
@@ -217,8 +217,8 @@ function register_post_types(){
 
     register_post_type('specialists', array(
         'labels'             => array(
-            'name'               => 'Спеціалісти', // Основное название типа записи
-            'singular_name'      => 'Спеціаліст', // отдельное название записи типа Book
+            'name'               => 'Спеціалісти',
+            'singular_name'      => 'Спеціаліст',
             'add_new'            => 'Добавити нового',
             'add_new_item'       => 'Добавити нового спеціаліста',
             'edit_item'          => 'Редагувати спеціаліста',
